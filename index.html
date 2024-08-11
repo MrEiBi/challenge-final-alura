@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Encriptador de Textos</title>
+    <script type="text/javascript" src="logica.js"></script>
+  </head>
+
+  <body>
+    <div class="desktop">
+      <div class="logo">
+        <img class="logoImg" src="Logo.png" alt="logo alura" />
+      </div>
+      <div class="contenedor-principal">
+        <input
+          id="inputTexto"
+          class="text-input"
+          type="text"
+          placeholder="Ingrese el texto aquí"
+        />
+      </div>
+      <div class="contenedor-secundario">
+        <img src="Muñeco.png" alt="Joven mirando una joya" id="imgRigth" />
+        <h1 id="txt-ningun-mensaje">Ningún mensaje fue encontrado</h1>
+        <textarea name="name" id="txt-ingresado" cols="30" rows="8">
+Ingresa el texto que desees encriptar o desencriptar.</textarea
+        >
+        <button onclick="copiar()" id="btn-copiar" type="button" name="buttom">
+          Copiar
+        </button>
+      </div>
+      <div>
+        <div class="mensaje-admiracion">
+          <img class="vector-adm" src="Vector.png" alt="Vector de admiracion" />
+          <p class="minusculas">Solo minusculas y sin acentos</p>
+        </div>
+        <div class="leftButtom">
+          <button type="button" id="btn-encriptar" onclick="encriptar()">
+            Encriptar
+          </button>
+          <button type="button" id="btn-desencriptar" onclick="desencriptar()">
+            Desencriptar
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <p>Copyright © 2024 by Abraham Sosa, Alura G7 - Oracle ONE.</p>
+  </footer>
+</html>
