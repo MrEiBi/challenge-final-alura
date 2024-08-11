@@ -1,7 +1,7 @@
 # challege-final-alura
 Challenge Encriptador de Textos, proyecto final para consolidar los conocimientos adquiridos a lo largo de la preparación profesional de Alura en conjunto con Oracle, por medio del programa ONE Next Education   
 
-Este proyecto es una aplicación que encripta textos, permitiendo el intercambio de mensajes secretos con otras personas que conozcan el secreto de la encriptación utilizada.
+Este proyecto es una aplicación práctica que encripta textos, permitiendo el intercambio de mensajes secretos con otras personas que conozcan el secreto de la encriptación utilizada.
 
 Las "llaves" de encriptación en las que me base y utilice son las siguientes:
 
